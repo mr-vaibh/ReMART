@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import AddTodo from './components/AddTodo'
 import TodoList from './components/TodoList'
+import Wiki from './components/Wiki'
 import './App.css'
 
 export class App extends Component {
@@ -122,6 +123,8 @@ export class App extends Component {
           }
         </section>
       </header>
+
+      <Wiki />
 
     </div>
     );
